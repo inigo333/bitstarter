@@ -1,3 +1,5 @@
+
+var fs = require('fs');
 var buffer = fs.readFileSync('index.html');
 var string = buffer.toString('utf-8');
 
